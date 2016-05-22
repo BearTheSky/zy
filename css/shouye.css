@@ -1,0 +1,60 @@
+html,body{width:100%;height: 100%;}
+html{font:normal normal 62.5% "Microsoft YaHei";}
+.z_container{width: 100%;height: 100%;}
+.z_main-left{
+	width: 20%;
+	height: 100%;
+	background: url(../img/main_left_bg.png);
+}
+.z_main-right{
+	width: 80%;
+	height: 100%;
+	background: url(../img/main_right_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.z_main-left .z_head{
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+.z_main-left .z_search img,.main-left .z_share img{
+	margin-right: 8px;
+	display: block;
+}
+.z_main-left .z_search img{
+	width:89px;
+	height:25px;
+	margin-left: 26px;
+}
+.z_main-left .z_share img{
+	width: 83px;
+	height: 27px;
+	margin-right: 18px;
+}
+
+
+.z_main-left .z_logo img{
+	display: block;
+	width: 116px;
+	height: 146px;
+	margin:0 auto 90px;
+	text-align: center;
+}
+.z_main-left .nav_img{
+	margin-top:30px;
+	background: #01b1f3;
+	padding: 46px;
+}
+.z_main-left .z_circle{
+	width: 40px;
+	height: 170px;
+	background: url(../img/circle.png) no-repeat 0 8px
+}
+.z_main-left .z_circle li{
+	padding-left:5px;
+	line-height: 43px;
+	font-size:1.4rem;
+	color:#999;
+}
+.z_main-left .z_goin{
+	
+}

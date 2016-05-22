@@ -1,0 +1,45 @@
+html,body{font-family:"微软雅黑",Arial,sans-serif;height: 100%;font-size: 20px;}/*对应的20px*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+body {
+  background:#fff;
+  color:#868686;
+}
+em,i{font-style: normal;}
+h1, h2, h3, h4, h5, h6 {
+  font-weight:normal;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style:normal;
+  font-weight:normal;
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:none;
+}
+img {
+  border:none;
+}
+ol,ul,li {
+  list-style:none;
+}
+table {
+  border-collapse:collapse;
+}
+/* css common */
+.clearfix:after {
+  content: " ";
+  display: block;
+  height:0;
+  clear:both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom:1;
+}
+.fl{float: left;}
+.fr{float: right;}

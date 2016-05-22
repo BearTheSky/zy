@@ -1,0 +1,62 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+html,body{
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style:normal;
+  font-weight:normal;
+}
+i, em{ 
+	font-style:normal; 
+}
+b, h1, h2, h3, h4, strong{ 
+	font-weight:normal; 
+}
+li{ 
+	list-style: none; 
+}
+a img{ 
+	display: block; border: none; 
+}
+select, textarea, input{ 
+	outline: none; 
+}
+input{ 
+	border:none 0; 
+}
+input::-ms-clear{
+	display: none; 
+}
+table {
+  border-collapse:collapse;
+}
+a:hover {
+  text-decoration:none;
+}
+a{ 
+	text-decoration: none; 
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.z_fl{
+	display: inline;
+	float:left;
+}
+.z_fr{
+	display: inline;
+	float:right;
+}
+.z_ofw{
+	overflow: hidden;
+}
+.z_clear:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.z_clear{
+	zoom: 1;
+}
